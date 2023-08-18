@@ -18,7 +18,7 @@ namespace CleanArch.Infra.IoC
             services.AddScoped<ICustomerService, CustomerService>();
 
             //Infra Data Layer
-            services.AddScoped<ICustomerRepository, CustomerRepository>
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
         }
     }
 }

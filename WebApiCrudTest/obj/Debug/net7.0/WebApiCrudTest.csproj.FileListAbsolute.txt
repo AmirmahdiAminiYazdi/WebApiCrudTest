@@ -80,3 +80,7 @@ D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\Microsoft.EntityFrameworkCor
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\Mono.TextTemplating.dll
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\System.CodeDom.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Infra.IoC.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Infra.IoC.pdb
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.pdb
