@@ -1,0 +1,12 @@
+D:\Rayankr\CRUD.NET\CleanArch.Domain\bin\Debug\net7.0\CleanArch.Domain.deps.json
+D:\Rayankr\CRUD.NET\CleanArch.Domain\bin\Debug\net7.0\CleanArch.Domain.dll
+D:\Rayankr\CRUD.NET\CleanArch.Domain\bin\Debug\net7.0\CleanArch.Domain.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\CleanArch.Domain.csproj.AssemblyReference.cache
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\CleanArch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\CleanArch.Domain.AssemblyInfoInputs.cache
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\CleanArch.Domain.AssemblyInfo.cs
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\CleanArch.Domain.csproj.CoreCompileInputs.cache
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\CleanArch.Domain.dll
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\refint\CleanArch.Domain.dll
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\CleanArch.Domain.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Domain\obj\Debug\net7.0\ref\CleanArch.Domain.dll

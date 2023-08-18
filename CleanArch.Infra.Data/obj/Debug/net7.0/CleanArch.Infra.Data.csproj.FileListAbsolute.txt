@@ -1,0 +1,12 @@
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\bin\Debug\net7.0\CleanArch.Infra.Data.deps.json
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\bin\Debug\net7.0\CleanArch.Infra.Data.dll
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\bin\Debug\net7.0\CleanArch.Infra.Data.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.csproj.AssemblyReference.cache
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.AssemblyInfoInputs.cache
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.AssemblyInfo.cs
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.csproj.CoreCompileInputs.cache
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.dll
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\refint\CleanArch.Infra.Data.dll
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\ref\CleanArch.Infra.Data.dll
