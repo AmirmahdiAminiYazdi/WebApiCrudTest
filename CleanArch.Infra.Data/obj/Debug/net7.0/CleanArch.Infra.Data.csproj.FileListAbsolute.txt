@@ -10,3 +10,8 @@ D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.d
 D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\refint\CleanArch.Infra.Data.dll
 D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.pdb
 D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\ref\CleanArch.Infra.Data.dll
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\bin\Debug\net7.0\CleanArch.Infra.Data.runtimeconfig.json
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.genruntimeconfig.cache
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\bin\Debug\net7.0\CleanArch.Domain.dll
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\bin\Debug\net7.0\CleanArch.Domain.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Infra.Data\obj\Debug\net7.0\CleanArch.Infra.Data.csproj.CopyComplete
