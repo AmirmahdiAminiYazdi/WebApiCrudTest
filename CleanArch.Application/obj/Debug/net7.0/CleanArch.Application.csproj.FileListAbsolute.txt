@@ -1,0 +1,15 @@
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\CleanArch.Application.deps.json
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\CleanArch.Application.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\CleanArch.Application.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\CleanArch.Domain.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\CleanArch.Domain.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.csproj.AssemblyReference.cache
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.AssemblyInfoInputs.cache
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.AssemblyInfo.cs
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.csproj.CoreCompileInputs.cache
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.csproj.CopyComplete
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\refint\CleanArch.Application.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\ref\CleanArch.Application.dll
