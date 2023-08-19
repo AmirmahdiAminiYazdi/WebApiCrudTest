@@ -26,7 +26,7 @@ namespace CleanArch.Application.QueryHandler
                 {
                     throw new AppException(ApiResultStatusCode.NotFound, $"Customer not found", System.Net.HttpStatusCode.NotFound);
                 }
-                return await Task.FromResult(result);
+                return result;
            
         }
     }
