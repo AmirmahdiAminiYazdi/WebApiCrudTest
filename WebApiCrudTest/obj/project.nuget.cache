@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D52wWf3qxidikheNlEeX+8jKvzq5dexsjLKYxg5rKAcAdOf5MTBK33Rvb4SwBpTJjC1Qw0BMvoUa84jUzxNTzw==",
+  "dgSpecHash": "/6K7CLuZ60lMP0ZHXrumtvSQbsrYGrTE8c5BldbRCdhZRFIr4JJ93rdtFmT3PmE2/76eSYUQ9EOVPiXWfe8HKQ==",
   "success": true,
   "projectFilePath": "D:\\Rayankr\\CRUD.NET\\WebApiCrudTest\\WebApiCrudTest.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,8 @@
     "C:\\Users\\mashadservice\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\libphonenumber-csharp\\8.13.18\\libphonenumber-csharp.8.13.18.nupkg.sha512",
+    "C:\\Users\\mashadservice\\.nuget\\packages\\mediatr\\5.1.0\\mediatr.5.1.0.nupkg.sha512",
+    "C:\\Users\\mashadservice\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

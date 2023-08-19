@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ImvUKMeVTk46FE4i4s3s0cZUic6KeNeNAllKuRPG6awAH7joFPFcAO7olff9Cz6YYCQZno7Cz4OsvRobomBuXw==",
+  "dgSpecHash": "tSbo0UCZBucv7rBpGrcHmI9NVK4gfl1jU1TveK8ZmioRJBDBQUlCcJDn5/9krkoozNe1EnrPszQ7VGf8fgCodQ==",
   "success": true,
   "projectFilePath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application\\CleanArch.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\mashadservice\\.nuget\\packages\\libphonenumber-csharp\\8.13.18\\libphonenumber-csharp.8.13.18.nupkg.sha512"
+    "C:\\Users\\mashadservice\\.nuget\\packages\\libphonenumber-csharp\\8.13.18\\libphonenumber-csharp.8.13.18.nupkg.sha512",
+    "C:\\Users\\mashadservice\\.nuget\\packages\\mediatr\\5.1.0\\mediatr.5.1.0.nupkg.sha512",
+    "C:\\Users\\mashadservice\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
+    "C:\\Users\\mashadservice\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.0.0\\microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
   ],
   "logs": []
 }

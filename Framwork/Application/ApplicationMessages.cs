@@ -7,5 +7,6 @@
         public const string PhoneNumberValidation = "The Phone number is not valid.";
         public const string EmailValidation = "The Email is not valid.";
         public const string BankAccountNumberValidation = "The BankAccountNumber is not valid.";
+        public const string UserDeleting = "User deleted successfully.";
     }
 }

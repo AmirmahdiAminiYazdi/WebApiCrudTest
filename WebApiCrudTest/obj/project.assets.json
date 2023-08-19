@@ -72,6 +72,28 @@
           }
         }
       },
+      "MediatR/5.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {}
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjectionFixed/5.1.2": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "5.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -1277,6 +1299,7 @@
           "CleanArch.Application.Contract": "1.0.0",
           "CleanArch.Domain": "1.0.0",
           "Framwork": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjectionFixed": "5.1.2",
           "libphonenumber-csharp": "8.13.18"
         },
         "compile": {
@@ -1426,6 +1449,32 @@
         "lib/netstandard2.0/PhoneNumbers.xml",
         "libphonenumber-csharp.8.13.18.nupkg.sha512",
         "libphonenumber-csharp.nuspec"
+      ]
+    },
+    "MediatR/5.1.0": {
+      "sha512": "Xt0a7rxi3L9Hqds8dATA+lLdo7k+g6vryACCDjzSRodXY7axISBhUOO0uY/94YN6aPw2sfBpBSF+t9gw2J2eLA==",
+      "type": "package",
+      "path": "mediatr/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/MediatR.dll",
+        "lib/netstandard1.3/MediatR.dll",
+        "lib/netstandard2.0/MediatR.dll",
+        "mediatr.5.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjectionFixed/5.1.2": {
+      "sha512": "93OmjCwew097+bxLSA9xJavQ0AYhHDmZDeh2Q09rxCuTeO9SKc/gtQledr0s42vHfl5yFgTRaffyMYG+989c2w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjectionfixed/5.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjectionfixed.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/7.0.5": {

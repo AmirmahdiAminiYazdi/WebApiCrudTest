@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="libphonenumber-csharp" Version="8.13.18" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjectionFixed" Version="5.1.2" />
   </ItemGroup>
 
   <ItemGroup>

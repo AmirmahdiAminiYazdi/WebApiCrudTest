@@ -109,6 +109,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjectionFixed": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
             "libphonenumber-csharp": {
               "target": "Package",
               "version": "[8.13.18, )"

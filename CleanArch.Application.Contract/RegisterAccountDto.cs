@@ -24,4 +24,5 @@ namespace CleanArch.Application.Contract
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string BankAccountNumber { get; set; }
     }
+   
 }

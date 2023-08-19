@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore.Internal;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-RegisterServices(builder.Services);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -16,6 +15,8 @@ builder.Services.AddDbContext<CRUDContext>(options =>
 {
     options.UseMySql(connectionStringMysql, ServerVersion.AutoDetect(connectionStringMysql));
 });
+RegisterServices(builder.Services);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

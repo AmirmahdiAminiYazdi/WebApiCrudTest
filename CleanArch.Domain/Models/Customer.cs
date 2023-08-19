@@ -10,7 +10,7 @@
         public string Email { get; set; }
         public string BankAccountNumber { get; set; }
 
-        public void Edit (string firstname , string lastname,string phoneNumber)
+        public void Edit (string firstname , string lastname,string phoneNumber,string email, string bankAccountNumber)
         {
             if (!string.IsNullOrWhiteSpace(firstname))
                 Firstname = firstname;
@@ -18,6 +18,11 @@
                 Lastname = lastname;
             if (!string.IsNullOrWhiteSpace(phoneNumber))
                 PhoneNumber = ulong.Parse(phoneNumber);
+            if(!string.IsNullOrWhiteSpace(email))
+                Email = email;
+            if (!string.IsNullOrWhiteSpace(bankAccountNumber))
+                BankAccountNumber = bankAccountNumber;
+
 
         }
     }

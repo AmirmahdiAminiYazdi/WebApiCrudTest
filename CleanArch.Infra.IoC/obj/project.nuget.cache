@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "as+Qex6nUsOzA6VzqdJecsOvcu/YKgyMB9StwKL2eKueTYWM36HS/otFYuaI75uQ2OQoFCWySmsZ90Nrpqr22A==",
+  "dgSpecHash": "VTkHI9l2RLUj4z1JwNogy8qi9vjxtgKeCUCD+r4IogNErfZMmJ4ohLz7QhThGChLkZpypuNwOCtBdjWPYNlM/A==",
   "success": true,
   "projectFilePath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Infra.IoC\\CleanArch.Infra.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mashadservice\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\libphonenumber-csharp\\8.13.18\\libphonenumber-csharp.8.13.18.nupkg.sha512",
+    "C:\\Users\\mashadservice\\.nuget\\packages\\mediatr\\5.1.0\\mediatr.5.1.0.nupkg.sha512",
+    "C:\\Users\\mashadservice\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\mashadservice\\.nuget\\packages\\microsoft.data.sqlclient\\5.0.2\\microsoft.data.sqlclient.5.0.2.nupkg.sha512",
