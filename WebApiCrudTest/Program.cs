@@ -1,7 +1,10 @@
+using CleanArch.Application.Query;
 using CleanArch.Infra.Data.Context;
 using CleanArch.Infra.IoC;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Internal;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,7 +19,8 @@ builder.Services.AddDbContext<CRUDContext>(options =>
     options.UseMySql(connectionStringMysql, ServerVersion.AutoDetect(connectionStringMysql));
 });
 RegisterServices(builder.Services);
-
+builder.Services.AddMediatR(typeof(GetAllCustomersQuery));
+builder.Services.AddMediatR(typeof(GetCustomerByIdQuery).GetTypeInfo().Assembly);
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

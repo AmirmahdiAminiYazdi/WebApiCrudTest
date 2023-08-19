@@ -1,10 +1,9 @@
 ﻿using Framework.Application;
-using Framework.Application;
 using System.ComponentModel.DataAnnotations;
 
 namespace CleanArch.Application.Contract
 {
-    public class RegisterAccountDto
+    public class RegisterAccountDtos
     {
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Firstname { get; set; }

@@ -15,7 +15,6 @@ D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\WebApiCrudTest.GeneratedMSBu
 D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\WebApiCrudTest.AssemblyInfoInputs.cache
 D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\WebApiCrudTest.AssemblyInfo.cs
 D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\WebApiCrudTest.csproj.CoreCompileInputs.cache
-D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\WebApiCrudTest.MvcApplicationPartsAssemblyInfo.cs
 D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\WebApiCrudTest.MvcApplicationPartsAssemblyInfo.cache
 D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\staticwebassets\msbuild.WebApiCrudTest.Microsoft.AspNetCore.StaticWebAssets.props
 D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApiCrudTest.props
@@ -89,3 +88,5 @@ D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.Contra
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\Framwork.dll
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.Contract.pdb
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\Framwork.pdb
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\MediatR.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll

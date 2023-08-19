@@ -9,7 +9,7 @@ namespace CleanArch.Application.ViewModels
 {
     public class CustomerViewModel
     {
-        public IEnumerable<Customer> Customers { get; set; }
+        public Task<IEnumerable<Customer>> Customers { get; set; }
         public Customer Customer { get; set; }
     }
 }

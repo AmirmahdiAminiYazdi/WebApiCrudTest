@@ -4133,6 +4133,7 @@
     "net7.0": [
       "CleanArch.Infra.Data >= 1.0.0",
       "CleanArch.Infra.IoC >= 1.0.0",
+      "MediatR.Extensions.Microsoft.DependencyInjectionFixed >= 5.1.2",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -4185,6 +4186,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "MediatR.Extensions.Microsoft.DependencyInjectionFixed": {
+            "target": "Package",
+            "version": "[5.1.2, )"
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[7.0.5, )"

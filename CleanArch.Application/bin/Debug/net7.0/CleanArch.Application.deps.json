@@ -11,6 +11,7 @@
           "CleanArch.Application.Contract": "1.0.0",
           "CleanArch.Domain": "1.0.0",
           "Framwork": "1.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjectionFixed": "5.1.2",
           "libphonenumber-csharp": "8.13.18"
         },
         "runtime": {
@@ -22,6 +23,34 @@
           "lib/net7.0/PhoneNumbers.dll": {
             "assemblyVersion": "8.13.18.0",
             "fileVersion": "8.13.18.0"
+          }
+        }
+      },
+      "MediatR/5.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.dll": {
+            "assemblyVersion": "5.1.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjectionFixed/5.1.2": {
+        "dependencies": {
+          "MediatR": "5.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.17205"
           }
         }
       },
@@ -57,6 +86,27 @@
       "sha512": "sha512-TPser+Kv+j1GXvtmKr0wzfZUdzjxOT7D4Gn5m2uOOwrGNfOEi0aPtReNmoXZhV8/JSUcCzg0sv22Rtq01mgUUQ==",
       "path": "libphonenumber-csharp/8.13.18",
       "hashPath": "libphonenumber-csharp.8.13.18.nupkg.sha512"
+    },
+    "MediatR/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xt0a7rxi3L9Hqds8dATA+lLdo7k+g6vryACCDjzSRodXY7axISBhUOO0uY/94YN6aPw2sfBpBSF+t9gw2J2eLA==",
+      "path": "mediatr/5.1.0",
+      "hashPath": "mediatr.5.1.0.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjectionFixed/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-93OmjCwew097+bxLSA9xJavQ0AYhHDmZDeh2Q09rxCuTeO9SKc/gtQledr0s42vHfl5yFgTRaffyMYG+989c2w==",
+      "path": "mediatr.extensions.microsoft.dependencyinjectionfixed/5.1.2",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eUdJ0Q/GfVyUJc0Jal5L1QZLceL78pvEM9wEKcHeI24KorqMDoVX+gWsMGLulQMfOwsUaPtkpQM2pFERTzSfSg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.2.0.0.nupkg.sha512"
     },
     "CleanArch.Application.Contract/1.0.0": {
       "type": "project",

@@ -12,18 +12,18 @@ namespace Framework.Application
             IsSuccedded = false;
         }
 
-        public OperationResult Succedded(string message = "Operation was successfully completed.")
+        public async Task<OperationResult> Succedded(string message = "Operation was successfully completed.")
         {
             IsSuccedded = true;
             Message = message;
-            return this;
+            return await Task.FromResult(this);
         }
 
-        public OperationResult Failed(string message = "Operation was not successful.")
+        public async Task<OperationResult> Failed(string message = "Operation was not successful.")
         {
             IsSuccedded = false;
             Message = message;
-            return this;
+            return await Task.FromResult(this);
         }
 
       

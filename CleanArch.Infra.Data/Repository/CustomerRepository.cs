@@ -1,6 +1,7 @@
 ﻿using CleanArch.Domain.Interfaces;
 using CleanArch.Domain.Models;
 using CleanArch.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,34 +20,41 @@ namespace CleanArch.Infra.Data.Repository
             _context = context;
         }
 
-        public void AddCustomer(Customer customer)
+        public async Task AddCustomer(Customer customer)
         {
-            _context.Customers.Add(customer);
+           await _context.Customers.AddAsync(customer);
         }
 
-        public void DeleteCustomer(Customer customer)
+        public async Task DeleteCustomer(Customer customer)
         {
             _context.Customers.Remove(customer);
         }
 
         public bool ExistsCustomer(Expression<Func<Customer, bool>> expression)
         {
-            return _context.Set<Customer>().Any(expression);
+
+            return  _context.Set<Customer>().Any(expression);
         }
 
-        public Customer GetCustomerById(int CustomerId)
+        public async Task<Customer> GetCustomerById(int CustomerId)
         {
-            return _context.Customers.Find(CustomerId);
+
+           
+              var result=  await _context.Customers.Where(x => x.Id == CustomerId).SingleOrDefaultAsync();
+            return result;
+           
         }
 
-        public IEnumerable<Customer> GetCustomers()
+        public  async Task<IEnumerable<Customer>> GetCustomers()
         {
-            return _context.Customers;
+         return await _context.Customers.ToListAsync();
         }
 
-        public void SaveChanges()
+        public async Task  SaveChanges()
         {
-            _context.SaveChanges();
+          await  _context.SaveChangesAsync();
         }
+
+        
     }
 }
