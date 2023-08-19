@@ -17,3 +17,7 @@ D:\Rayankr\CRUD.NET\CleanArch.Infra.IoC\obj\Debug\net7.0\CleanArch.Infra.IoC.dll
 D:\Rayankr\CRUD.NET\CleanArch.Infra.IoC\obj\Debug\net7.0\refint\CleanArch.Infra.IoC.dll
 D:\Rayankr\CRUD.NET\CleanArch.Infra.IoC\obj\Debug\net7.0\CleanArch.Infra.IoC.pdb
 D:\Rayankr\CRUD.NET\CleanArch.Infra.IoC\obj\Debug\net7.0\ref\CleanArch.Infra.IoC.dll
+D:\Rayankr\CRUD.NET\CleanArch.Infra.IoC\bin\Debug\net7.0\CleanArch.Application.Contract.dll
+D:\Rayankr\CRUD.NET\CleanArch.Infra.IoC\bin\Debug\net7.0\Framwork.dll
+D:\Rayankr\CRUD.NET\CleanArch.Infra.IoC\bin\Debug\net7.0\CleanArch.Application.Contract.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Infra.IoC\bin\Debug\net7.0\Framwork.pdb

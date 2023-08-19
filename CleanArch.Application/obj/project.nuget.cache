@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "izpKw0Cq7KVtQfvBDI+wwmJDmhJf8eX0ZSd5LcHKi6nX9nBRYLU1mqMixvbfKes3Df5CNmUapgOPOh/2gBUKSQ==",
+  "dgSpecHash": "ImvUKMeVTk46FE4i4s3s0cZUic6KeNeNAllKuRPG6awAH7joFPFcAO7olff9Cz6YYCQZno7Cz4OsvRobomBuXw==",
   "success": true,
   "projectFilePath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application\\CleanArch.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mashadservice\\.nuget\\packages\\libphonenumber-csharp\\8.13.18\\libphonenumber-csharp.8.13.18.nupkg.sha512"
+  ],
   "logs": []
 }

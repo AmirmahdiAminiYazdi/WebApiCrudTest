@@ -44,9 +44,8 @@ namespace CleanArch.Infra.Data.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<string>("PhoneNumber")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<ulong>("PhoneNumber")
+                        .HasColumnType("bigint unsigned");
 
                     b.HasKey("Id");
 

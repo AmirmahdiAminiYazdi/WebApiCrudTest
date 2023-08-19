@@ -1,0 +1,12 @@
+D:\Rayankr\CRUD.NET\Framwork\bin\Debug\net7.0\Framwork.deps.json
+D:\Rayankr\CRUD.NET\Framwork\bin\Debug\net7.0\Framwork.dll
+D:\Rayankr\CRUD.NET\Framwork\bin\Debug\net7.0\Framwork.pdb
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\Framwork.csproj.AssemblyReference.cache
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\Framwork.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\Framwork.AssemblyInfoInputs.cache
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\Framwork.AssemblyInfo.cs
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\Framwork.csproj.CoreCompileInputs.cache
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\Framwork.dll
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\refint\Framwork.dll
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\Framwork.pdb
+D:\Rayankr\CRUD.NET\Framwork\obj\Debug\net7.0\ref\Framwork.dll

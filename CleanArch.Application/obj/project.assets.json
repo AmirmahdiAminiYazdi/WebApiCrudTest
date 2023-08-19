@@ -2,6 +2,32 @@
   "version": 3,
   "targets": {
     "net7.0": {
+      "libphonenumber-csharp/8.13.18": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/PhoneNumbers.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/PhoneNumbers.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CleanArch.Application.Contract/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Framwork": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArch.Application.Contract.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArch.Application.Contract.dll": {}
+        }
+      },
       "CleanArch.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -11,19 +37,61 @@
         "runtime": {
           "bin/placeholder/CleanArch.Domain.dll": {}
         }
+      },
+      "Framwork/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Framwork.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Framwork.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "libphonenumber-csharp/8.13.18": {
+      "sha512": "TPser+Kv+j1GXvtmKr0wzfZUdzjxOT7D4Gn5m2uOOwrGNfOEi0aPtReNmoXZhV8/JSUcCzg0sv22Rtq01mgUUQ==",
+      "type": "package",
+      "path": "libphonenumber-csharp/8.13.18",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net6.0/PhoneNumbers.dll",
+        "lib/net6.0/PhoneNumbers.xml",
+        "lib/net7.0/PhoneNumbers.dll",
+        "lib/net7.0/PhoneNumbers.xml",
+        "lib/netstandard2.0/PhoneNumbers.dll",
+        "lib/netstandard2.0/PhoneNumbers.xml",
+        "libphonenumber-csharp.8.13.18.nupkg.sha512",
+        "libphonenumber-csharp.nuspec"
+      ]
+    },
+    "CleanArch.Application.Contract/1.0.0": {
+      "type": "project",
+      "path": "../CleanArch.Application.Contract/CleanArch.Application.Contract.csproj",
+      "msbuildProject": "../CleanArch.Application.Contract/CleanArch.Application.Contract.csproj"
+    },
     "CleanArch.Domain/1.0.0": {
       "type": "project",
       "path": "../CleanArch.Domain/CleanArch.Domain.csproj",
       "msbuildProject": "../CleanArch.Domain/CleanArch.Domain.csproj"
+    },
+    "Framwork/1.0.0": {
+      "type": "project",
+      "path": "../Framwork/Framwork.csproj",
+      "msbuildProject": "../Framwork/Framwork.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "CleanArch.Domain >= 1.0.0"
+      "CleanArch.Application.Contract >= 1.0.0",
+      "CleanArch.Domain >= 1.0.0",
+      "Framwork >= 1.0.0",
+      "libphonenumber-csharp >= 8.13.18"
     ]
   },
   "packageFolders": {
@@ -53,8 +121,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
+            "D:\\Rayankr\\CRUD.NET\\CleanArch.Application.Contract\\CleanArch.Application.Contract.csproj": {
+              "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application.Contract\\CleanArch.Application.Contract.csproj"
+            },
             "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj": {
               "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj"
+            },
+            "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj": {
+              "projectPath": "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj"
             }
           }
         }
@@ -68,6 +142,12 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
+        "dependencies": {
+          "libphonenumber-csharp": {
+            "target": "Package",
+            "version": "[8.13.18, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

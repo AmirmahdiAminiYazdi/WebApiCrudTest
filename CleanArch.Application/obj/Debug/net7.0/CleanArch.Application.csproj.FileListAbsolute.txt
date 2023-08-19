@@ -13,3 +13,7 @@ D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application
 D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\refint\CleanArch.Application.dll
 D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\CleanArch.Application.pdb
 D:\Rayankr\CRUD.NET\CleanArch.Application\obj\Debug\net7.0\ref\CleanArch.Application.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\CleanArch.Application.Contract.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\Framwork.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\CleanArch.Application.Contract.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Application\bin\Debug\net7.0\Framwork.pdb

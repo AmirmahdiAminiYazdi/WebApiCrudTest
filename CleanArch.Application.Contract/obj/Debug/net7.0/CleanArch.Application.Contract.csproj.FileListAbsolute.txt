@@ -1,0 +1,15 @@
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\bin\Debug\net7.0\CleanArch.Application.Contract.deps.json
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\bin\Debug\net7.0\CleanArch.Application.Contract.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\bin\Debug\net7.0\CleanArch.Application.Contract.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\bin\Debug\net7.0\Framwork.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\bin\Debug\net7.0\Framwork.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\CleanArch.Application.Contract.csproj.AssemblyReference.cache
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\CleanArch.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\CleanArch.Application.Contract.AssemblyInfoInputs.cache
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\CleanArch.Application.Contract.AssemblyInfo.cs
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\CleanArch.Application.Contract.csproj.CoreCompileInputs.cache
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\CleanArch.Application.Contract.csproj.CopyComplete
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\CleanArch.Application.Contract.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\refint\CleanArch.Application.Contract.dll
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\CleanArch.Application.Contract.pdb
+D:\Rayankr\CRUD.NET\CleanArch.Application.Contract\obj\Debug\net7.0\ref\CleanArch.Application.Contract.dll

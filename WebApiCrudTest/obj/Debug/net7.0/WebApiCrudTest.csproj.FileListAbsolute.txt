@@ -84,3 +84,8 @@ D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.dll
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Infra.IoC.dll
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Infra.IoC.pdb
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.pdb
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\PhoneNumbers.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.Contract.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\Framwork.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.Contract.pdb
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\Framwork.pdb

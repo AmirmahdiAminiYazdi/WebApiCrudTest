@@ -60,6 +60,14 @@
           }
         }
       },
+      "libphonenumber-csharp/8.13.18": {
+        "runtime": {
+          "lib/net7.0/PhoneNumbers.dll": {
+            "assemblyVersion": "8.13.18.0",
+            "fileVersion": "8.13.18.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/7.0.5": {
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -690,10 +698,21 @@
       },
       "CleanArch.Application/1.0.0": {
         "dependencies": {
-          "CleanArch.Domain": "1.0.0"
+          "CleanArch.Application.Contract": "1.0.0",
+          "CleanArch.Domain": "1.0.0",
+          "Framwork": "1.0.0",
+          "libphonenumber-csharp": "8.13.18"
         },
         "runtime": {
           "CleanArch.Application.dll": {}
+        }
+      },
+      "CleanArch.Application.Contract/1.0.0": {
+        "dependencies": {
+          "Framwork": "1.0.0"
+        },
+        "runtime": {
+          "CleanArch.Application.Contract.dll": {}
         }
       },
       "CleanArch.Domain/1.0.0": {
@@ -720,6 +739,11 @@
         },
         "runtime": {
           "CleanArch.Infra.IoC.dll": {}
+        }
+      },
+      "Framwork/1.0.0": {
+        "runtime": {
+          "Framwork.dll": {}
         }
       }
     }
@@ -750,6 +774,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "libphonenumber-csharp/8.13.18": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TPser+Kv+j1GXvtmKr0wzfZUdzjxOT7D4Gn5m2uOOwrGNfOEi0aPtReNmoXZhV8/JSUcCzg0sv22Rtq01mgUUQ==",
+      "path": "libphonenumber-csharp/8.13.18",
+      "hashPath": "libphonenumber-csharp.8.13.18.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/7.0.5": {
       "type": "package",
@@ -1260,6 +1291,11 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CleanArch.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CleanArch.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -1271,6 +1307,11 @@
       "sha512": ""
     },
     "CleanArch.Infra.IoC/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Framwork/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
