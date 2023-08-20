@@ -1,0 +1,441 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Rayankr\\CRUD.NET\\CustomerTest\\CustomerTest.csproj": {}
+  },
+  "projects": {
+    "D:\\Rayankr\\CRUD.NET\\CleanArch.Application.Contract\\CleanArch.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application.Contract\\CleanArch.Application.Contract.csproj",
+        "projectName": "CleanArch.Application.Contract",
+        "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application.Contract\\CleanArch.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\mashadservice\\.nuget\\packages\\",
+        "outputPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application.Contract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mashadservice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj": {
+                "projectPath": "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Rayankr\\CRUD.NET\\CleanArch.Application\\CleanArch.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application\\CleanArch.Application.csproj",
+        "projectName": "CleanArch.Application",
+        "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application\\CleanArch.Application.csproj",
+        "packagesPath": "C:\\Users\\mashadservice\\.nuget\\packages\\",
+        "outputPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mashadservice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Rayankr\\CRUD.NET\\CleanArch.Application.Contract\\CleanArch.Application.Contract.csproj": {
+                "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application.Contract\\CleanArch.Application.Contract.csproj"
+              },
+              "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj"
+              },
+              "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj": {
+                "projectPath": "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjectionFixed": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
+            "libphonenumber-csharp": {
+              "target": "Package",
+              "version": "[8.13.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj",
+        "projectName": "CleanArch.Domain",
+        "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj",
+        "packagesPath": "C:\\Users\\mashadservice\\.nuget\\packages\\",
+        "outputPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mashadservice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Rayankr\\CRUD.NET\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Rayankr\\CRUD.NET\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+        "projectName": "CleanArch.Infra.Data",
+        "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\mashadservice\\.nuget\\packages\\",
+        "outputPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mashadservice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Domain\\CleanArch.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Rayankr\\CRUD.NET\\CustomerTest\\CustomerTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Rayankr\\CRUD.NET\\CustomerTest\\CustomerTest.csproj",
+        "projectName": "CustomerTest",
+        "projectPath": "D:\\Rayankr\\CRUD.NET\\CustomerTest\\CustomerTest.csproj",
+        "packagesPath": "C:\\Users\\mashadservice\\.nuget\\packages\\",
+        "outputPath": "D:\\Rayankr\\CRUD.NET\\CustomerTest\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mashadservice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Rayankr\\CRUD.NET\\CleanArch.Application\\CleanArch.Application.csproj": {
+                "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Application\\CleanArch.Application.csproj"
+              },
+              "D:\\Rayankr\\CRUD.NET\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj": {
+                "projectPath": "D:\\Rayankr\\CRUD.NET\\CleanArch.Infra.Data\\CleanArch.Infra.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj",
+        "projectName": "Framwork",
+        "projectPath": "D:\\Rayankr\\CRUD.NET\\Framwork\\Framwork.csproj",
+        "packagesPath": "C:\\Users\\mashadservice\\.nuget\\packages\\",
+        "outputPath": "D:\\Rayankr\\CRUD.NET\\Framwork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mashadservice\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

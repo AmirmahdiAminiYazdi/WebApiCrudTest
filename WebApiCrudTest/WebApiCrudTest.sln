@@ -23,9 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Application", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Infra.IoC", "..\CleanArch.Infra.IoC\CleanArch.Infra.IoC.csproj", "{1026C2EC-5650-4AE5-8C80-C7D6B6352DB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framwork", "..\Framwork\Framwork.csproj", "{7A7885A7-B575-4F68-A7F2-D6A6A244944F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Framwork", "..\Framwork\Framwork.csproj", "{7A7885A7-B575-4F68-A7F2-D6A6A244944F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch.Application.Contract", "..\CleanArch.Application.Contract\CleanArch.Application.Contract.csproj", "{4502D1FB-3C60-4FED-983B-DCF3894CCB3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArch.Application.Contract", "..\CleanArch.Application.Contract\CleanArch.Application.Contract.csproj", "{4502D1FB-3C60-4FED-983B-DCF3894CCB3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerTest", "..\CustomerTest\CustomerTest.csproj", "{980F374C-4AE2-4E35-A5B9-A67D3226104C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -121,6 +123,18 @@ Global
 		{4502D1FB-3C60-4FED-983B-DCF3894CCB3E}.Release|arm64.Build.0 = Release|Any CPU
 		{4502D1FB-3C60-4FED-983B-DCF3894CCB3E}.Release|x86.ActiveCfg = Release|Any CPU
 		{4502D1FB-3C60-4FED-983B-DCF3894CCB3E}.Release|x86.Build.0 = Release|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Debug|arm64.Build.0 = Debug|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Debug|x86.Build.0 = Debug|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Release|arm64.ActiveCfg = Release|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Release|arm64.Build.0 = Release|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Release|x86.ActiveCfg = Release|Any CPU
+		{980F374C-4AE2-4E35-A5B9-A67D3226104C}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

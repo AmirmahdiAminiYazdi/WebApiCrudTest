@@ -1,10 +1,7 @@
 ﻿using CleanArch.Domain.Models;
+using CleanArch.Infra.Data.Mappings;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CleanArch.Infra.Data.Context
 {
@@ -15,5 +12,9 @@ namespace CleanArch.Infra.Data.Context
             
         }
         public DbSet<Customer>  Customers{ get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new CustomerMapping());
+        }
     }
 }

@@ -1,15 +1,14 @@
-﻿using CleanArch.Domain.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace CleanArch.Application.ViewModels
 
-namespace CleanArch.Application.ViewModels
 {
     public class CustomerViewModel
     {
-        public Task<IEnumerable<Customer>> Customers { get; set; }
-        public Customer Customer { get; set; }
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public DateTime DateOfBirth { get; set; }
+        public ulong PhoneNumber { get; set; }
+        public string Email { get; set; }
+        public string BankAccountNumber { get; set; }
+
     }
 }

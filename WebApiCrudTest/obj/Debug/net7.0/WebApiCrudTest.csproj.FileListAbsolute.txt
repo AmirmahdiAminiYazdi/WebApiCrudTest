@@ -90,3 +90,6 @@ D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\CleanArch.Application.Contra
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\Framwork.pdb
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\MediatR.dll
 D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\obj\Debug\net7.0\WebApiCrudTest.MvcApplicationPartsAssemblyInfo.cs
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\AutoMapper.dll
+D:\Rayankr\CRUD.NET\WebApiCrudTest\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
